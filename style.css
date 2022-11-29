@@ -20,8 +20,34 @@ body {
 
 /* HLAVICKA */
 
+header {
+    background-image:url(images/island-hlavicka.jpg) linear-gradient(rgba(0,0,0,1));
+    /*filter: brightness(60%);*/
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
 .titulek {
     font-family: 'Raleway', serif;
+    font-size: 430%;
+    margin: 0;
+    padding: 4%;
+}
+
+.perex {
+    font-size: 140%; 
+    padding: 0 6%;
+    
+}
+
+.autor {
+    font-size: 130%; 
+    padding: 5%;
+    opacity: 90%;
 }
 
 
@@ -32,8 +58,21 @@ body {
 
 /* OBSAH */
 
+.obrazek {
+    width: 100%;
+}
 
+img {
+    width: 100%;
+}
 
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
 
 /* FOTOGALERIE */
 
